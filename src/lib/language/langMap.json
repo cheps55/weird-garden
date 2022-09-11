@@ -1,0 +1,30 @@
+{
+    "Game.name": {
+        "en": "Weird Garden",
+        "cht": "怪異花園"
+    },
+    "MainMenu.start_game": {
+        "en": "Start Game",
+        "cht": "開始遊戲"
+    },
+    "MainMenu.import_pokedex": {
+        "en": "Import Pokedex",
+        "cht": "載入圖鑑"
+    },
+    "MainMenu.view_pokedex": {
+        "en": "View Pokedex",
+        "cht": "查看圖鑑"
+    },
+    "MainMenu.statistics": {
+        "en": "Statistics",
+        "cht": "統計數據"
+    },
+    "MainMenu.statistics.spawn": {
+        "en": "Spawn",
+        "cht": "出現"
+    },
+    "MainMenu.statistics.collect": {
+        "en": "Collect",
+        "cht": "收集"
+    }
+}
