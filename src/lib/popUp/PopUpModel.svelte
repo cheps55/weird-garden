@@ -16,7 +16,7 @@
     export let closeAnimation = fade;
 
     export let onCloseIntercept = (e) => {
-        if ((!onOuterClose && e.target !== wrapper) && e.target !== closeBtn) return;
+        if ((!onOuterClose && e.target === wrapper) || (e.target !== wrapper && e.target !== closeBtn)) return;
         if (typeof onClose === 'function') onClose();
     }
 
