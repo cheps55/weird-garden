@@ -7,7 +7,7 @@
 
     let gardenArray = Array.from({length: CreaturePerRow * TotalPotRow}, (_, i) => ({ i: i, no: 0 }))
     let spawnTimer;
-    const spawnInterval = 100;
+    const spawnInterval = 1000;
 
     const openStatPopUp = () => {
         $isStatisticsPopUpOpen = true;

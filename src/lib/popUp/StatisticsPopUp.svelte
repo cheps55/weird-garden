@@ -3,7 +3,6 @@
     import { langFlag, statistics, isStatisticsPopUpOpen } from '$lib/stores.js'; 
     import { CreatureSpawnRate } from '$lib/config.js';
     import PopUpModel from './PopUpModel.svelte';
-import { prevent_default } from 'svelte/internal';
 
     const onClose = () => $isStatisticsPopUpOpen = false;
 

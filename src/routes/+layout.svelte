@@ -11,7 +11,7 @@
 <Header />
 
 <main
-    style='max-width: {MaxGameScreenWidth}px; height: {MaxGameScreenHeight}px'
+    style='max-width: {MaxGameScreenWidth + 20}px; min-height: {MaxGameScreenHeight}px'
 >
     <slot />
 </main>

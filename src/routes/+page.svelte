@@ -14,8 +14,8 @@
 <section>
     <Navigate title='MainMenu.start_game' href='/game' />
     <Navigate title='MainMenu.statistics' on:click={() => $isStatisticsPopUpOpen = true} />
-    <!-- <Navigate title='MainMenu.import_pokedex' />
-    <Navigate title='MainMenu.view_pokedex' /> -->
+    <!-- <Navigate title='MainMenu.import_pokedex' /> -->
+    <Navigate title='MainMenu.view_pokedex' href='/pokedex' />
 </section>
 
 <style>
